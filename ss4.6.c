@@ -10,7 +10,6 @@ int main() {
     printf("Nhap chi so moi: ");
     scanf("%d", &chi_so_moi);
 
-    // Tính s? di?n tiêu th?
     so_dien = chi_so_moi - chi_so_cu;
 
     if (so_dien < 0) {
@@ -18,7 +17,6 @@ int main() {
         return 0;
     }
 
-    // Xác d?nh don giá theo m?c tiêu th?
     if (so_dien < 50) {
         tien_dien = so_dien * 10000;
     } else if (so_dien < 100) {
@@ -36,4 +34,5 @@ int main() {
 
     return 0;
 }
+
 
